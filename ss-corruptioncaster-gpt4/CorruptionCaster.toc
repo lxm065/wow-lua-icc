@@ -1,0 +1,10 @@
+## Interface: 90400
+## Title: Corruption Caster
+## Notes: Casts Corruption if the target does not have it.
+## Author: liangxm
+## Version: 1.0
+## SavedVariables: CorruptionCasterDB
+
+CorruptionCaster.xml
+CorruptionCaster.lua
+
