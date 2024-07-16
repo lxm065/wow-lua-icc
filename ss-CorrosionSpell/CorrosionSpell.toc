@@ -1,0 +1,7 @@
+## Interface: 90002
+## Title: Corrosion Spell
+## Author: liangxm
+## Version: 1.0
+
+CorrosionSpell.xml
+CorrosionSpell.lua
