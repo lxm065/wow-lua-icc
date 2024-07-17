@@ -5,7 +5,7 @@ function CorruptionCaster_OnLoad()
   CorruptionCasterFrame = CreateFrame("Frame", "CorruptionCasterFrame");
   CorruptionCasterFrame:Show();
   CorruptionCasterFrame:Show();
-  CorruptionCasterUI:Show();
+
 end
 
 function InitializeButton()
