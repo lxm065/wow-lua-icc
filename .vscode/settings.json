@@ -1,0 +1,9 @@
+{
+    "Lua.diagnostics.globals": [
+        "CastSpellByName",
+        "UnitExists",
+        "UnitDebuff",
+        "CreateFrame",
+        "UIParent"
+    ]
+}

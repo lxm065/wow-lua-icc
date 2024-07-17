@@ -1,6 +1,6 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/">
 
-  <Frame name="CorruptionCasterFrame" hidden="true">
+  <Frame name="CorruptionCasterFrame" hidden="false">
     <Scripts>
       <OnLoad>
         self:RegisterEvent("PLAYER_LOGIN");
@@ -13,7 +13,7 @@
     </Scripts>
   </Frame>
 
-  <Frame name="CorruptionCasterUI" parent="UIParent" hidden="true">
+  <Frame name="CorruptionCasterUI" parent="UIParent" hidden="falase">
     <Size x="100" y="50"/>
     <Anchors>
       <Anchor point="CENTER"/>

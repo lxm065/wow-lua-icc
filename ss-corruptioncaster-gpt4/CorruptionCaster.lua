@@ -2,12 +2,20 @@ local isRunning = false;
 
 function CorruptionCaster_OnLoad()
   print("Corruption Caster Loaded.");
+  CorruptionCasterFrame = CreateFrame("Frame", "CorruptionCasterFrame");
+  CorruptionCasterFrame:Show();
   CorruptionCasterFrame:Show();
   CorruptionCasterUI:Show();
 end
 
+function InitializeButton()
+    local button = CreateFrame("Button", "CorruptionCasterButton", UIParent)
+    -- 这里进行其他必要的按钮配置
+    return button
+end
 function CorruptionCaster_Toggle()
   isRunning = not isRunning;
+  CorruptionCasterButton = InitializeButton()
   if isRunning then
     CorruptionCasterButton:SetText("Stop");
     CorruptionCasterFrame:RegisterEvent("PLAYER_TARGET_CHANGED");
